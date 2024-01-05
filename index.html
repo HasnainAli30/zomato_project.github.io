@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Zomato Clone Project</title>
+</head>
+<body class="bg-body-secondary">
+
+        <!-- navbar section -->
+        <section class="container-fluid NavSection bg-light-subtle">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="col-lg-10 col-md-6 col-sm-6 ms-lg-3 ms-md-0 ms-sm-0">
+                      <a href="index.html" class="navbar-brand fs-1 fw-bold mx-3 brand text-danger">Zomato</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-1 mb-lg-0 mx-auto px-lg-1 fs-5 d-lg-none d-md-block d-sm-block">
+
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#" target="_blank">Restaurants</a>
+                        </li>
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">Pricing</a>
+                        </li>
+        
+                        <li class="nav-item px-3">
+                          <a class="nav-link" href="#">About Us</a>
+                        </li>
+
+                      </ul>
+
+                    <button type="button" class="btn btn-danger col-lg-9 col-md-2 col-sm-2 ms-lg-5 ms-md-3 ms-sm-3 fw-bold fs-6 py-lg-2 py-md-1 py-sm-1 px-lg-1 px-md-0 px-sm-0">
+                        Order Food
+                    </button>
+                    
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- hero section -->
+        <section class="my-5">
+            <div class="container">
+                <div class="row gap-md-1 gap-sm-1 gap-lg-0">
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-lg-start text-md-center text-sm-center order-lg-0 order-md-1 order-sm-1">
+                        <p class="fw-bold pt-lg-5 pt-md-5 pt-sm-5 mt-lg-5 mt-md-0 mt-sm-0 display-4 para01">
+                            Order food from favorite restaurants near you.
+                        </p>
+                        <button type="button" class="btn btn-danger fw-bold fs-6 px-3 py-2">
+                            Order Food
+                        </button>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-lg-start text-md-center text-sm-center">
+                        <img src="images/hero.jpg" alt="hero section picture" class="rounded w-100 pt-3 hero">
+                    </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- video section -->
+
+        <section class="my-5 text-center">
+
+          <div class="container my-5 py-5">
+            <iframe src="https://player.vimeo.com/video/323795266" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen class="vimeo"></iframe>
+
+            <div class="container col-lg-7 col-md-12 col-sm-12">
+            <p class="fs-5 mt-3">
+              Your food will be prepared safely with an experienced chef, without compromising on the quality and hygiene.
+            </p>
+          </div>
+        </div>
+        </section>
+
+        <!-- menu section -->
+
+        <section class="my-5 bg-danger">
+          <h1 class="fw-bold display-3 text-center MenuHeading">Explore our menu</h1>
+          <div class="container">
+          <div class="row">
+
+            <!-- card 01 -->
+            <div class="col-lg-4 col-md-12 col-sm-12 pt-lg-5 pt-md-3 pt-sm-3">
+              <img src="images/burger.jpg" alt="burger" class="w-100 rounded-top">
+
+              
+              <p class="bg-light rounded-bottom py-3">
+                <span class="fw-bold text-dark fs-3 ms-lg-3 ms-md-2 ms-sm-2">Burgers</span>
+                <br>
+                <span class="ms-lg-3 ms-md-2 ms-sm-2 fs-6">
+                  Burger King, Mcdonalds, Burger Place<span class="text-danger">+3</span>
+                </span>
+              </p>
+            </div>
+
+            <!-- card 02 -->
+            <div class="col-lg-4 col-md-12 col-sm-12 pt-lg-3 pt-md-0 pt-sm-0">
+              <img src="images/pizza.jpg" alt="pizza" class="w-100 rounded-top">
+
+              
+              <p class="bg-light rounded-bottom py-3">
+                <span class="fw-bold text-dark fs-3 ms-lg-3 ms-md-2 ms-sm-2">Pizza</span>
+                <br>
+                <span class="ms-lg-3 ms-md-2 ms-sm-2 fs-6">
+                  Pizza Hut, Domino's Pizza<span class="text-danger">+3</span>
+                </span>
+              </p>
+            </div>
+
+            <!-- card 03 -->
+            <div class="col-lg-4 col-md-12 col-sm-12 pt-lg-5 pt-md-0 pt-sm-0">
+              <img src="images/iceCream.jpg" alt="iceCream" class="w-100 rounded-top">
+
+              
+              <p class="bg-light rounded-bottom py-3">
+                <span class="fw-bold text-dark fs-3 ms-lg-3 ms-md-2 ms-sm-2">Ice Creams</span>
+                <br>
+                <span class="ms-lg-3 ms-md-2 ms-sm-2 fs-6">
+                  Baskin Robins, Ibaco<span class="text-danger">+3</span>
+                </span>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-12 text-center">
+            <button type="button" class="btn py-4 mb-3 ViewMore">
+              View More
+            </button>
+          </div>
+          </div>
+        </div>
+
+        </section>
+
+        <!-- restaurants section -->
+
+        <section class="my-5 text-lg-start text-md-center text-sm-center">
+          <div class="container">
+
+          <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12 py-lg-5">
+              <p class="fw-bold pt-lg-5 pt-md-5 pt-sm-5 mt-lg-5 mt-md-0 mt-sm-0 display-6 para01">
+                Order From 100s of restaurants
+              </p>
+            </div>
+
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <!-- row1 -->
+              <div class="row ">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="images/restaurant1.jpg" alt="restaurant1" class="rounded w-75 pt-lg-5 ms-lg-5 mb-md-3 mb-sm-3 mb-lg-0">
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="images/restaurant2.jpg" alt="restaurant2" class="rounded w-75 restaurant2">
+                  </div>
+                </div>
+
+                <!-- row2 -->
+                <div class="row py-md-3 py-sm-3">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="images/restaurant4.jpg" alt="restaurant4" class="rounded w-75 pt-lg-5 ms-lg-5 mb-md-3 mb-sm-3 mb-lg-0">
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="images/restaurant3.jpg" alt="restaurant3" class="rounded w-75 restaurant3 pt-lg-5">
+                  </div>
+                </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        </section>
+
+        <!-- Update section -->
+
+        <section class="my-5 py-5">
+          
+          <h1 class="text-dark fw-bold text-center">Stay Updated</h1>
+
+          
+            <div class="row d-lg-flex d-md-block d-sm-block justify-content-center">
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <input type="email" class="form-control bg-light text-lg-start text-md-center text-sm-center" placeholder="email@email.com">
+            </div>
+
+          <div class="col-lg-3 col-md-12 col-sm-12 pt-lg-0 pt-md-3 pt-sm-3 text-lg-start text-md-center text-sm-center">
+            <button type="button" class="btn btn-danger px-5">
+              Order Food
+            </button>
+          </div>
+        </div>
+        
+        </section>
+
+        <!-- quotation section -->
+
+        <section class="my-5 text-center">
+
+          <div class="container col-lg-8 border rounded-3 quotation">
+          <p class="text-center text-white fs-3 py-5">
+            When a man's stomach is full it makes no difference whether he is rich or poor.
+          </p>
+        </div>
+        </section>
+
+        <!-- footer section -->
+
+        <section class="mt-5 bg-danger text-md-center text-sm-center border rounded-top-3">
+
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-6 pt-4 mt-4">
+                  <a href="index.html" class="fs-1 fw-bold mx-3 text-white brand">Zomato</a>
+              </div>
+
+              <div class="col-lg-6">
+                <ul style="list-style-type: none;" class="text-lg-start mt-3 text-white fs-5">
+                  <li>Pricing</li>
+                  <li>Terms and condition</li>
+                  <li>Partnership</li>
+                  <li>Career</li>
+                  <li>Contact</li>
+                </ul>
+            </div>
+
+            </div>
+          </div>
+
+        </section>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Lato:wght@300&family=Oswald:wght@500&family=Roboto+Mono&family=Roboto:wght@400;500&family=Sono:wght@400;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.NavSection{
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 20px wheat;
+}
+
+.brand{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.hero{
+    box-shadow: 10px 10px 10px brown;
+}
+
+.para01{
+    color: purple;
+    line-height: 1;
+}
+
+.vimeo{
+    box-shadow: 10px 20px brown;
+}
+
+.MenuHeading{
+    color: #130f40;
+}
+
+
+.ViewMore{
+    transition-property: background-color;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.ViewMore:hover{
+    background-color: antiquewhite;
+}
+
+.restaurant2{
+    height: 100%;
+}
+
+.restaurant3{
+    height: 120%;
+}
+
+.quotation{
+    background-image: url('images/restaurant4.jpg');
+    background-repeat: no-repeat;
+}
